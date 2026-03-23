@@ -1,0 +1,33 @@
+/* bodyのフォント設定 */
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+}
+
+/* htmlのフォントサイズを変更（20px） */
+html {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* フォントカラーの設定 */
+.blue {
+    color: skyblue;
+}
+
+.pink {
+    color: rgb(255, 192, 203);
+}
+
+/* h1の装飾 */
+h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 2rem;
+    letter-spacing: .24em;
+    box-shadow: 1em;
+    border-bottom: 3px solid rgb(115, 115, 114);
+}
+
+/* 子孫関係を利用してスタイル変更 */
+#basic > p {
+    font-weight: bold;
+}
