@@ -5,13 +5,15 @@
     margin: 20px auto;
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 5px;
 }
 
 /* p要素 top-childに対する装飾 */
 .top-child {
     width: 20%;
     background-color: #ffd9df;
+    display: inline-block;
 }
 
 /* div要素 middleに対する装飾 */
